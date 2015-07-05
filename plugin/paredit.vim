@@ -1751,3 +1751,7 @@ if !exists("g:paredit_disable_scheme")
     au FileType racket    call PareditInitBuffer()
 endif
 
+if !exists("g:paredit_disable_hy")
+    au FileType hy call PareditInitBuffer()
+endif
+
